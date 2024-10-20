@@ -1,38 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # safesync-ai
-# safesync-ai
+
+Overview SafeSync.AI provides a user-friendly interface for individuals to input the names of two drugs and quickly assess their compatibility. This tool can be particularly useful for healthcare professionals, pharmacists, or anyone seeking to understand potential drug interactions.
+
+Key Features User Input Fields:
+
+The app includes two input fields where users can enter the names of the drugs they want to check. This allows for flexibility in checking compatibility for various combinations of medications. Error Handling:
+
+If users fail to enter both drug names, the app provides immediate feedback, prompting them to fill in the required fields before proceeding. Compatibility Check:
+
+Upon clicking the "Check" button, the app sends a POST request to an API endpoint (/api/check), where the compatibility of the entered drugs is evaluated. Response Display:
+
+The app displays the compatibility results, informing the user of any potential interactions or confirming that the drugs are safe to use together. Error Notifications:
+
+If there is an issue with the compatibility check (e.g., network errors or invalid input), the app alerts users with an error message, ensuring they are aware of any problems encountered during the process. Responsive Design:
+
+The layout is designed to be responsive, ensuring a good user experience on various devices, from desktops to mobile phones. Navigation Bar:
+
+The app includes a navigation bar with branding and iconography, enhancing the visual appeal and making the app more recognizable. Technical Stack Framework: Built with Next.js for server-side rendering and improved performance. Styling: Utilizes CSS modules for styling and MUI (Material-UI) for components, ensuring a modern and cohesive design. State Management: Implements React's useState hook to manage the application's state effectively. Use Cases Healthcare Professionals: Doctors and pharmacists can use the app to quickly verify drug compatibility before prescribing or dispensing medications. Patients: Individuals on multiple medications can check for potential interactions to ensure their safety. Conclusion Overall, SafeSync.AI is an efficient tool aimed at promoting safe medication practices through easy drug compatibility checks, enhancing both healthcare outcomes and user experience.
