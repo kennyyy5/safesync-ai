@@ -36,8 +36,16 @@ The app includes a navigation bar with branding and iconography, enhancing the v
 
 Utilizes CSS modules for styling and MUI (Material-UI) for components, ensuring a modern and cohesive design. 
 
-# State Management: Implements React's useState hook to manage the application's state effectively. Use Cases Healthcare Professionals: Doctors and pharmacists can use the app to quickly verify drug compatibility before prescribing or dispensing medications. 
+# State Management: 
 
-# Patients: Individuals on multiple medications can check for potential interactions to ensure their safety. 
+Implements React's useState hook to manage the application's state effectively. Use Cases Healthcare Professionals: Doctors and pharmacists can use the app to quickly verify drug compatibility before prescribing or dispensing medications. 
+
+# Patients: 
+
+Individuals on multiple medications can check for potential interactions to ensure their safety. 
 # Conclusion 
+
 Overall, SafeSync.AI is an efficient tool aimed at promoting safe medication practices through easy drug compatibility checks, enhancing both healthcare outcomes and user experience.
+
+# Demo video:
+https://www.loom.com/share/53f3a6e050a340a8bdeba69411313d6a?sid=a556c329-6196-40b5-914c-d21adc08a3af
